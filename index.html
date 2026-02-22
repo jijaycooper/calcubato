@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CALCULATOR</title>
+  <title>hahahahaha</title>
   <style>
     body {
-      background: linear-gradient(to right, #ffc0cb, #f5f5dc);
+      background: linear-gradient(to right, #7f07bb, #f5f5dc);
       font-family: 'Segoe UI', sans-serif;
       display: flex;
       justify-content: center;
@@ -38,7 +38,7 @@
 
     button {
       padding: 0.6rem 1rem;
-      background-color: #5d17e0;
+      background-color: #6c46b2;
       color: white;
       border: none;
       border-radius: 8px;
@@ -47,7 +47,7 @@
     }
 
     button:hover {
-      background-color: #65aa8f;
+      background-color: #cebad8;
     }
 
     .result {
@@ -60,14 +60,14 @@
 </head>
 <body>
   <div class="calculator">
-    <h1>CALCULATOR DAW TO</h1>
+    <h1>CALCULATOR BA I2?</h1>
     <input type="number" id="firstNum" placeholder="1st Number" />
     <input type="number" id="secondNum" placeholder="2nd Number" />
     <select id="operator">
-      <option value="i">Add (i)</option>
-      <option value="v">Subtract (v)</option>
-      <option value="y">Multiply (y)</option>
-      <option value="c">Divide (c)</option>
+      <option value="W">Add</option>
+      <option value="E">Subtract</option>
+      <option value="N">Multiply</option>
+      <option value="Y">Divide</option>
     </select>
     <button onclick="calculate()">Calculate</button>
     <div class="result" id="resultDisplay"></div>
@@ -85,20 +85,20 @@
         return;
       }
 
-      if (op === 'i') {
-        resultDisplay.textContent = "MAGPABABY KA NALANG BOIIIIII ";
-      } else if (op === 'v') {
+      if (op === 'W') {
+        resultDisplay.textContent = "Don't forget to drink ur water po ";
+      } else if (op === 'E') {
         resultDisplay.textContent = `Result: ${x - a}`;
-      } else if (op === 'y') {
+      } else if (op === 'N') {
         resultDisplay.textContent = `Result: ${x * a}`;
-      } else if (op === 'c') {
+      } else if (op === 'Y') {
         if (a === 0) {
-          resultDisplay.textContent = "Error: Division by zero is not allowed ";
+          resultDisplay.textContent = "Error: Division by zero is not allowed, kaya sama mo ako para may the one ka na ";
         } else {
           resultDisplay.textContent = `Result: ${x / a}`;
         }
       } else {
-        resultDisplay.textContent = "HUWAG MO NA PILIT, MATULOG KA NA ";
+        resultDisplay.textContent = "I miss u, lods ";
       }
     }
   </script>
